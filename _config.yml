@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo Template
+title: sar60677's blog
 subtitle: ""
 description: ""
 keywords:
-author: JiJi
-language: en
+author: sar60677
+language: zh-CN
 timezone: ""
 
 # URL
@@ -97,11 +97,11 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ""
 
-root: 
+root:
