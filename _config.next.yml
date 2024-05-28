@@ -35,7 +35,7 @@ footer:
 scheme: Gemini
 
 # Dark Mode
-darkmode: false
+darkmode: true
 
 # ---------------------------------------------------------------
 # Menu Settings
@@ -127,6 +127,20 @@ social:
   #Instagram: https://instagram.com/yourname || fab fa-instagram
   #Skype: skype:yourname?call|chat || fab fa-skype
 
+# Code Highlight theme
+# Available values: normal | night | night eighties | night blue | night bright
+# https://github.com/chriskempson/tomorrow-theme
+highlight_theme: night eighties
+
+codeblock:
+  # Add copy button on codeblock
+  copy_button:
+    enable: true
+    # Show text copy result
+    show_result: true
+    # Available values: default | flat | mac
+    style: mac
+
 # ---------------------------------------------------------------
 # Third Party Plugins & Services Settings
 # See: https://theme-next.org/docs/third-party-services/
@@ -199,3 +213,6 @@ quicklink:
   # For more flexibility you can add some patterns (RegExp, Function, or Array) to ignores.
   # See: https://github.com/GoogleChromeLabs/quicklink#custom-ignore-patterns
   ignores:
+
+# Automatically excerpt description in homepage as preamble text.
+excerpt_description: true
