@@ -1,7 +1,8 @@
 ---
 title: Git仓库小记
 date: 2024-05-27 15:55:28
-tags: git
+tags: [git]
+categories: [git]
 description: 一些关于git的帮助
 ---
 

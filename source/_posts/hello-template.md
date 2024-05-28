@@ -1,5 +1,11 @@
 ---
 title: Hexo Template
+date: 2020-03-12 12:00:00
+categories:
+- Hexo
+tags:
+- Hexo
+- Template
 ---
 
 > A fast, simple & powerful blog framework, powered by [Node.js](https://nodejs.org). Here is the template of it.

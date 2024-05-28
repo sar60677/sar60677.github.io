@@ -105,3 +105,45 @@ deploy:
   type: ""
 
 root:
+
+# Enable symbols_count_time Display
+symbol_count:
+  enable: true
+
+# 标签
+tags:
+  per_page: 0 # 设置为 0 表示不分页
+  order_by: name # 可以选择 'name' 或 'count'
+
+tag_cloud:
+  min_font: 10
+  max_font: 30
+  unit: "px"
+  color: true
+  start_color: "#ccc"
+  end_color: "#555"
+
+# 分类
+categories:
+  per_page: 0 # 设置为 0 表示不分页
+  order_by: name # 可以选择 'name' 或 'count'
+
+# 友情链接
+links:
+  - title: 友情链接1
+    description: 友情链接1描述
+    website: 友情链接1网址
+    image: 友情链接1图片
+  - title: 友情链接2
+    description: 友情链接2描述
+    website: 友情链接2网址
+    image: 友情链接2图片
+
+# 文章置顶
+sticky:
+  enable: true
+  permanent: false
+
+# 文章版权
+copyright:
+  enable: true
