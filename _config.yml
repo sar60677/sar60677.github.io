@@ -114,15 +114,7 @@ symbol_count:
 tags:
   per_page: 0 # 设置为 0 表示不分页
   order_by: name # 可以选择 'name' 或 'count'
-
-tag_cloud:
-  min_font: 10
-  max_font: 30
-  unit: "px"
-  color: true
-  start_color: "#ccc"
-  end_color: "#555"
-
+  
 # 分类
 categories:
   per_page: 0 # 设置为 0 表示不分页
